@@ -1,0 +1,385 @@
+* {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .Topnav {
+    height: 56px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+  }
+  
+  li {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    vertical-align: middle;
+  }
+  
+  #Group_3927 {
+    margin-bottom: -5px;
+    margin-left: 15px;
+  }
+  
+  .Nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+  }
+  
+  .buttonSign {
+    display: flex;
+  
+  }
+  
+  .FirstLi {
+    margin-top: 25px;
+  }
+  
+  .NavLeft {
+    display: block;
+    float: left;
+    margin-top: 40px !important;
+  }
+  
+  .NavRight {
+    display: block;
+    float: left;
+    right: 60px;
+    position: absolute;
+    margin-top: 5px;
+  }
+  
+  .BgBlue {
+    background: #1877F2;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .myNav {
+    position: relative;
+  }
+  
+  #navlist {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #toggle-nav {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  .mlogo {
+    display: none;
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 1080px){
+    .BgBlue,li{
+      font-size:13px ;
+    }
+    .NavRight {margin-top: 10px;
+    position: unset;
+    }
+     li {
+        display: block;
+      float: none;}
+     #navlist {
+                  flex-direction: column;
+                  display: none;
+              }
+  
+      #toggle-nav {
+                  display: block;
+                  color: black;
+          margin: 10px;
+          float: left;
+              }
+  .mlogo {
+    float: right;
+    display: block;
+    visibility: visible;
+    padding-top: 5px;
+  }
+  .mlogo img {height: 32px;}
+  
+  .FirstLi{
+    display:none;
+    visibility: hidden;
+  }
+  }
+  
+  /*********Log IN PAGE************/
+  
+  .LogLogo{
+    height: 60px;
+    margin-top: 75px;
+  
+  
+  }
+  .center{
+    text-align: center ;
+  
+  
+  }
+  form{
+    align-items: center;
+    text-align: left;
+  }
+  input{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align:justify;
+  }
+  .password{
+    margin-top: 20px;
+  }
+  form input{
+    outline: none;
+    padding: 17px 150px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  .SignIn{
+    background-color: #1877F2;
+    border-radius: 5px;
+    padding: 13px 128px;
+    color: white;
+  }
+  .SignUp{
+    background-color: black;
+    border-radius: 5px;
+    padding: 13px 125.04px;
+    color: white;
+    
+  }
+  .ButtonSections{
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+  .ButtonsBetween{
+    margin: 15px;
+  }
+  .Recovery{
+    font-size: 10px;
+  }
+  .dividerLeft{
+    margin: 0 10px 0 10px;
+  }
+  .dividerRight{
+    margin: 0 10px 0 10px;
+  }
+  .path{
+    width: 1920px;
+  }
+  
+  
+  /************ SIGNINUP ******************/
+  #bodyS{
+    background: linear-gradient(to right,#F8F8F8 50%, #E8E7E8 50%);
+  }
+  
+  .textLeft{
+  margin-top: 50px;
+  margin-left: 60px;
+  text-align: left;
+  
+  }
+  #Create1{
+  font-size: 30px;
+  margin-bottom: 15px;
+  }
+  #Create2{font-size: 15px;
+    color: #7F95A6;
+  }
+  .CreateAccForm{
+    margin-left: 60px;
+  }
+  #CreateAccInput{
+    padding: 25px 239px 25px 15px;
+    margin: 34px 0px -10px 0px;
+    background-color: white;
+  
+  }
+  #CreateAccInput::placeholder{
+    color: #7F95A6;
+  }
+  #checkbox{
+    size: 2px;
+    margin-top: 30px;
+    margin-left: 60px;
+    display: inline;
+  }
+  #blue{
+    color: #1877F2;
+  }
+  #textColor{
+    color: #607286;
+    margin: 0px 0px 0px 5px;
+    display: inline-table;
+  }
+  .SignUpButton{
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  .SignUpButtonClick{
+    background-color:#1877F2;
+    border-radius: 5px;
+    padding: 13px 175px;
+    color: white;
+    font-family: Ubuntu;
+  }
+  
+  /*Right Section*/
+  
+  .center{
+    text-align: center;
+    direction: unset;
+  
+  }
+  
+  .right-half{
+    display: inline-block;
+    width: 50%;
+    right: 0px;
+    margin: 0;
+    top: 56px;
+    padding-top: 50px;
+    position: absolute;
+    background-color: #E8E7E8;
+    height: auto;
+    min-height: -webkit-fill-available;
+  }
+  
+  .left-half{
+    display: inline-block;
+      width: 50%;
+      left: 0px;
+      margin: 0;
+      padding: 0;
+  }
+  #Create3{
+    font-size: 30px;
+  
+  }
+  #Create4{
+    font-size: 10px;
+    font-family: Ubuntu;
+    
+  }
+  #Create5{
+    font-size: 15px;
+  }
+  .BusinessLi{
+   list-style: white;
+  }
+  .GetStartedNowButton{
+    margin-top: 78px;
+    margin-left: -36px;
+  }
+  .GetStartedNowButtonClick{
+    background-color:black;
+    border-radius: 5px;
+    padding: 15px 110px;
+    color: white;
+    font-family: Ubuntu;
+  
+  }
+  #BusinessLi {
+    font-size: 13px;
+    margin-top: unset;
+    margin-left: unset;
+    padding: 6px 20%;
+    list-style: none;
+    text-align: left;
+    display: block;}
+  
+  /******************Register Account*****************/
+  
+  #RegisterBody{
+    background-color: #F8F8F8;
+    height: 100%;
+  }
+  .centerRegister{
+    text-align: center ;
+    margin-top: 50px;
+  }
+  #CenterText{
+  
+    text-align: left;
+    display: inline-block;
+    font-size: 25px;
+  
+  
+  }
+  
+  .formProfileSetup{
+    align-items: center;
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+      margin: 20px;
+  }
+  .inputProfileSetup{
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  
+  }
+  .inputProfileSetup::placeholder{
+    color: #7F95A6;
+    
+  }
+  .ButtonNext{
+    
+  }
+  .NextButton{
+    background-color: #1877F2;
+    border-radius: 5px;
+    padding: 13px 135px;
+    color: white;
+  }
